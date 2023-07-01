@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Redressed', cursive;
+}
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid black;
+}
+
+nav h1 {
+    color: black;
+    font-size: 50px;
+}
+
+nav .onglets {
+    margin-top: 3px;
+    margin-left: 300px;
+}
+
+nav .onglets a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin-right: 10px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+nav img {
+    height: 200px;
+}
+
+nav h2 {
+    display: flex;
+    position: relative;
+    top: 80px;
+    right: 40px;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 767px) {
+    nav .onglets {
+        margin-left: 20px;
+        margin-top: 70px;
+        margin-right: 70px;
+        display: flex;
+        flex-direction: column;
+    
+
+    }
+    nav h2{
+        margin-left: 20px;
+    }
+    nav a{
+        margin-bottom: 20px;
+    }
+}
+@media screen and (min-width:768px) and (max-width: 1023px) {
+    nav .onglets {
+        margin-left: 20px;
+        margin-top: 70px;
+        margin-right: 70px;
+        display: flex;
+        flex-direction: column;
+    
+
+    }
+    nav h2{
+        margin-left: 20px;
+    }
+    nav a{
+        margin-bottom: 20px;
+    }
+}
+
+.contacts{
+    margin-top: 40px;
+    display: flex;
+    flex-direction:row;
+    align-items: flex-end ;
+    margin-left: 50px;
+}
+.joindre {
+    margin-left: 15px;
+    bottom: 238px;
+    font-size: x-large;
+    
+    
+}
+
+
+
+.map img{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 500px;
+    width: 800px;
+    
+}
+
+@media screen and (max-width: 767px) {
+    .contacts{
+        flex-direction: column;
+        margin-left: 5px;
+    }
+   
+}
+
+@media screen and (min-width:768px) and (max-width: 1023px) {
+    .contacts{
+        flex-direction: column;
+        margin-left: 5px;
+    }
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding-bottom: 20px;
+}
+
