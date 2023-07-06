@@ -14,10 +14,7 @@ nav {
     border-bottom: 5px solid black;
 }
 
-nav h1 {
-    color: black;
-    font-size: 50px;
-}
+
 
 nav .onglets {
     margin-top: 3px;
@@ -85,9 +82,10 @@ nav h2 {
     flex-direction: column;
 }
 
-.atelier h1{
+.atelier h2{
     align-self: center;
     font-size: xx-large;
+    font-size: x-large;
 }
 .ateliers{
     margin-left: 40px;
@@ -99,7 +97,7 @@ nav h2 {
 }
 
 
-.atelier h2{
+.atelier h3{
     font-size: x-large;
 }
 .atelier p{
@@ -167,6 +165,7 @@ footer {
     background-color: black;
     color: white;
     padding-bottom: 20px;
+    font-size: large;
 }
 
 @media screen and (max-width: 767px) {
