@@ -108,6 +108,9 @@ nav h2 {
     border: 1px solid;
     width: 48%;
 }
+.Julie img{
+    height: 150px;
+}
 
 .Lucie{
     border: 1px solid;
@@ -115,10 +118,8 @@ nav h2 {
     margin-left: 40px;
 }
 
-.Vinsiane{
-    border: 1px solid;
-    width: 48%;
-    margin-left: 40px;
+.Lucie img {
+    height: 150px;
 }
 
 .up{
