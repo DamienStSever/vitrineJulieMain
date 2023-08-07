@@ -52,7 +52,7 @@ nav h2 {
 
     }
     nav h2{
-        margin-left: 20px;
+        margin-left: 40px;
     }
     nav a{
         margin-bottom: 20px;
@@ -75,6 +75,29 @@ nav h2 {
     nav a{
         margin-bottom: 20px;
     }
+}
+
+.evenement{
+    display: flex;
+    justify-content: center;
+}
+
+.evenement img{
+    width: 450px;
+}
+
+@media screen and (max-width: 767px) {
+    .evenement img {
+        width: 100%;
+    
+
+    }
+   
+}
+
+@media screen and (min-width:768px) and (max-width: 1023px) {
+   
+  
 }
 
 .atelier{
@@ -161,6 +184,41 @@ i{
     }
 
 }
+
+.photos{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.photos img{
+    width: 300px;
+}
+@media screen and (max-width: 767px) {
+    .photos{
+        flex-direction: column;
+    }
+
+    .photos img {
+      width: 100%;
+
+    }
+    
+}
+
+@media screen and (min-width:768px) and (max-width: 1023px) {
+    .photos {
+        flex-wrap: wrap;
+    
+
+    }
+    .photos img{
+        width: 350px;
+    }
+
+}
+
 
 footer {
     background-color: black;
